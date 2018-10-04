@@ -1,9 +1,7 @@
-PROGRAM= pascal
+run: pascal
+	./pascal
 
-run: ${PROGRAM}
-    ./${PROGRAM}
+pascal: pascal.c
+	gcc -Wall -std=c11 pascal.c -o pascal
 
-${PROGRAM}: ${PROGRAM}.c
-    gcc -Wall -std=c11 ${PROGRAM}.c -o ${PROGRAM}
-
-build: ${PROGRAM}
+build: pascal
