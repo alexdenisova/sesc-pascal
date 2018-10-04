@@ -18,6 +18,6 @@ int main() {
 		}
 	}
 	n = fy/(fx*k);
-	printf("%d", n);
+	printf("%d\n", n);
 	return 0;
 }
