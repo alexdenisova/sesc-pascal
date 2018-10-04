@@ -1,4 +1,4 @@
-PROGRAM= area
+PROGRAM= pascal
 
 run: ${PROGRAM}
     ./${PROGRAM}
